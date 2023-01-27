@@ -90,7 +90,7 @@ body {
 }
 
 .nav {
-    
+
     padding-bottom: 20px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -435,6 +435,8 @@ body {
 }
 
 .five {
+    margin-left: 2em;
+    margin-right: 2em;
     font-size: 2.5rem;
 }
 
@@ -562,28 +564,41 @@ main {
 }
 
 
-#divFrame{display: flex; flex-direction: column; place-items: center;}
+#divFrame {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
 
 #fol {
     font-size: 4rem;
     color: white;
     text-align: center;
-margin-top: 6em;
+    margin-top: 6em;
 }
 
-#lego{
+#lego {
     width: 100%;
     height: 50vh;
 }
-#happy{ width: 100%;
+
+#happy {
+    width: 100%;
     height: 50vh;
 }
 
-#best{width: 100%;
+#best {
+    width: 100%;
     height: 50vh;
 }
-.inter1{ padding-top: 5em;}
-.inter{ padding-top: 10em;}
+
+.inter1 {
+    padding-top: 5em;
+}
+
+.inter {
+    padding-top: 10em;
+}
 
 @media screen AND (max-width:1000px) {
     .twelve {
